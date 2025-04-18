@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                           // 指定 ECMAScript 目标版本
+    "useDefineForClassFields": true,              // 开启类字段定义
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],     // 包含库定义
+    "allowJs": false,                             // 是否允许编译 .js 文件
+    "skipLibCheck": true,                         // 跳过库的类型检查
+    "esModuleInterop": true,                      // 启用 ES 模块互操作
+    "strict": true,                               // 启用所有严格类型检查选项
+    "forceConsistentCasingInFileNames": true,     // 文件名强制大小写一致
+    "module": "ESNext",                           // 生成的代码模块规范
+    "moduleResolution": "Node",                   // 模块解析策略
+    "resolveJsonModule": true,                    // 允许引入 .json 文件
+    "isolatedModules": true,                      // 启用 isolatedModules 模式
+    "noEmit": true,                               // 不生成任何输出文件
+    "jsx": "react-jsx",                           // JSX 支持，使用 React 17+ 风格
+    "baseUrl": ".",                               // 基础路径，所有的相对路径从这里开始解析
+    "paths": {
+      "@/*": ["src/*"],                           // `@` 对应 src 目录
+    },
+  },
+  "include": ["src"],           // 编译时包含的文件
+  "exclude": ["node_modules"]                    // 排除 node_modules 文件夹
+}
