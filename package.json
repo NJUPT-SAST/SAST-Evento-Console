@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint --fix --max-warnings 0 .",
     "commit": "git add . && npx cz",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "antd": "^5.24.7",
