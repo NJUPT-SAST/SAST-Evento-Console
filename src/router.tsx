@@ -2,11 +2,11 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
-} from "react-router-dom";
-import Layout from "@/pages/Layout";
-import Home from "@/pages/Home";
-import Login from "@/pages/Login";
-import EventDetail from "@/pages/EventDetail";
+} from 'react-router-dom'
+import Layout from '@/pages/Layout'
+import Home from '@/pages/Home'
+import Login from '@/pages/Login'
+import EventDetail from '@/pages/EventDetail'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,4 +16,4 @@ export const router = createBrowserRouter(
       <Route path="eventDetail/:id" element={<EventDetail />} />
     </Route>
   )
-);
+)

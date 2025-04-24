@@ -3,6 +3,6 @@ const EventDetail = () => {
     <div>
       <h1>EventDetail</h1>
     </div>
-  );
-};
-export default EventDetail;
+  )
+}
+export default EventDetail
